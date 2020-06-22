@@ -36,11 +36,9 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
-      with:
-        uichecksum: 8519d6141f68f277f1e36c1b1be62810bb1bdc93
       run: |
-        curl -O -sSL https://github.com/ReproNim/reproschema-ui/archive/{{ uichecksum }}.zip
-        unzip {{ uichecksum }}.zip
+        curl -O -sSL https://github.com/ReproNim/reproschema-ui/archive/8519d6141f68f277f1e36c1b1be62810bb1bdc93.zip
+        unzip 8519d6141f68f277f1e36c1b1be62810bb1bdc93.zip
         mv reproschema* ui
         cd ui
         cp -r ../ui-changes/. .
