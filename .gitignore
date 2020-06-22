@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+*~
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.idea/
+.coverage*
+cov.xml
+build
+dist

@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ohbm/cobidas/master/protocol/cobidas_context"
+    ],
+    "@type": "reproschema:ActivitySet",
+    "@id": "cobidas_schema",
+    "prefLabel": "COBIDAS Information Protocol",
+    "schema:description": "Protocol for collecting COBIDAS information for a given study",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "schema:image": "https://raw.githubusercontent.com/ohbm/cobidas/master/protocol/checklist.jpg",
+    "landingPage": "https://raw.githubusercontent.com/ohbm/cobidas/master/protocol/README-en.md",
+    "ui": {
+        "order": [
+            "ThankYou_schema"
+        ],
+        "shuffle": false,
+        "addProperties": [
+            {
+                "isAbout": "ThankYou_schema",
+                "variableName": "ThankYou_schema",
+                "prefLabel": {
+                    "en": "ThankYou"
+                }
+            }
+        ],
+        "allow": [
+            "autoAdvance",
+            "allowExport"
+        ]
+    }
+}
