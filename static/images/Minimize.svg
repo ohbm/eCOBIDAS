@@ -1,0 +1,15 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2">
+<rect id="Rectangle" width="33" height="33" rx="2" fill="#3C4A62"/>
+<g id="Group 2_2">
+<rect id="Rectangle_2" x="0.5" y="0.5" width="22.5161" height="22.625" rx="1.5" transform="translate(5 5)" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector" d="M0 0H11V11" transform="translate(6 17)" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group">
+<g id="Group_2">
+<path id="Vector 2" d="M4.72166 0.351147C4.91559 0.154565 4.91344 -0.162011 4.71686 -0.355944C4.52028 -0.549877 4.2037 -0.547729 4.00977 -0.351147L4.72166 0.351147ZM0 4.42535L-0.355944 4.07421C-0.54837 4.26926 -0.547967 4.58285 -0.35504 4.77741L0 4.42535ZM4.01067 9.18009C4.20511 9.37617 4.52169 9.3775 4.71778 9.18307C4.91386 8.98863 4.91519 8.67205 4.72076 8.47597L4.01067 9.18009ZM4.00977 -0.351147L-0.355944 4.07421L0.355944 4.7765L4.72166 0.351147L4.00977 -0.351147ZM-0.35504 4.77741L4.01067 9.18009L4.72076 8.47597L0.35504 4.07329L-0.35504 4.77741Z" transform="translate(15.9998 11.2114) rotate(-45)" fill="white"/>
+<path id="Line" d="M0 0H8.60871" transform="translate(19.2532 14.2166) rotate(-45)" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>
