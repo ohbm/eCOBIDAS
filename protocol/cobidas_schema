@@ -26,7 +26,7 @@
         "allow": [
             "autoAdvance",
             "allowExport"
-        ]
+        ],
         "addProperties": [
             {
                 "variableName": "ExperimentalDesign",
