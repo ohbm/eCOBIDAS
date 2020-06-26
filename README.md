@@ -34,7 +34,17 @@ Currently the sections and items in the checklist correspond to the list of meta
 
 This is very much of a work in progress but the next step is to expand the list to cover all the items of the COBIDAS report for fMRI as well as for the recent [extension to EEG and MEG](https://osf.io/a8dhx/).
 
-## Want to know more? Want to help?
+## Want to help?
+
+We are currently working on trying to expand the number of items used in the checklist. All of this work is done in google spreadsheets.
+
+The MRI spreadsheet is accessible [here](https://docs.google.com/spreadsheets/d/1dCXP0MTK3DjY09ZFd7FXgv0Ngx16_YJwVBiXOeQbTho/edit?usp=sharing)
+
+The M/EEG spreadsheet is accessible [here](https://docs.google.com/spreadsheets/d/1OhkmbtgIWdFxSVjpu6A8PWoAuqev0jY-98GFQlwBCy0/edit?usp=sharing)
+
+For more information on the content and organization of these spreadsheets, see the dedicated [document](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/spreadsheet_content.md)
+
+## Want to know more?
 
 Most of the information concerning this project can be found on this [github repository](https://github.com/Remi-Gau/COBIDAS_chckls).
 
@@ -50,6 +60,7 @@ We have a [list](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/goals.md
 
 The list of the people involved in this project can be found [here](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/contributors.md#contributors).
 
+## License
 
 The protocol is licensed CC-BY-4.0
 
