@@ -1,6 +1,6 @@
 # eCOBIDAS
 
-**a checklist for methods and results reporting for neuroimaging studies**
+**A checklist for methods and results reporting for neuroimaging studies**
 
 You can try this app [HERE](https://ohbm.github.io/cobidas/#/).
 
