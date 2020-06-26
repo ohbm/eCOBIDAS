@@ -4,7 +4,7 @@
 
 You can try this app [HERE](https://ohbm.github.io/cobidas/#/).
 
-This checklist is still work in progress. The current prototype has been built using the 88 metadata items list used by the [neurovault website](https://neurovault.org/) when uploading your neuroimaging results.
+This checklist is still work in progress. The current prototype has been built using the 88 metadata items list used by the [Neurovault website](https://neurovault.org/) when uploading your neuroimaging results.
 
 We are currently working to create a more complete checklist as described in the COBIDAS reports for MRI, fMRI, EEG and MEG (see [below](#Background) for more information).
 
