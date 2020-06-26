@@ -45,7 +45,7 @@ Follow the link if you want to know more about the [motivations behind this proj
 
 ## Background
 
-This checklist is a project to make a user friendly checklist out the best practices [report](https://www.biorxiv.org/content/10.1101/054262v2) of the Committee on Best Practices in Data Analysis and Sharing ([COBIDAS](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3728)) of the Organization for human brain mapping.
+This checklist is a project to make a user friendly checklist out the best practices [report](https://www.humanbrainmapping.org/COBIDASreport) of the Committee on Best Practices in Data Analysis and Sharing ([COBIDAS](https://www.humanbrainmapping.org/cobidas/)) of the [Organization for Human Brain Mapping](https://www.humanbrainmapping.org).
 
 Currently the sections and items in the checklist correspond to the list of metadata used by [neurovault website](https://neurovault.org/) when uploading your neuroimaging results.
 
