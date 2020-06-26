@@ -12,7 +12,7 @@ We are currently working to create a more complete checklist as described in the
 
 You can navigate each section on the left and then answer the questions corresponding to your fMRI analysis. This is meant to make sure that you have not forgotten any of the essential information in the methods and results parts of your article.
 
-At the end, you can click on `Export` (bottom left) to get a machine readable json file that recaps your method/results section: our next step is to use this to automate the part of the methods writing.
+At the end, you can click on `Export` (bottom left) to get a zip file containing machine readable json files that captures information about your method/results section: our next step is to use this to automate the part of the methods writing and to submit the information alongside data submission to Neurovault and other data archives.
 
 ## Have any questions? Something is missing? Let us know.
 
