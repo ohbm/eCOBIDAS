@@ -8,6 +8,23 @@ This checklist is still work in progress. The current prototype has been built u
 
 We are currently working to create a more complete checklist as described in the COBIDAS reports for MRI, fMRI, EEG and MEG (see [below](#Background) for more information).
 
+---
+
+<!-- TOC -->
+
+-   [How to use it](#how-to-use-it)
+-   [Have any questions? Something is missing? Let us know.](#have-any-questions-something-is-missing-let-us-know)
+-   [Why this project?](#why-this-project)
+-   [Background](#background)
+-   [Want to help?](#want-to-help)
+-   [Want to know more?](#want-to-know-more)
+-   [Contributors](#contributors)
+-   [License](#license)
+
+<!-- /TOC -->
+
+---
+
 ## How to use it
 
 You can navigate each section on the left and then answer the questions corresponding to your fMRI analysis. This is meant to make sure that you have not forgotten any of the essential information in the methods and results parts of your article.
