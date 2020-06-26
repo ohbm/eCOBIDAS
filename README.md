@@ -2,7 +2,7 @@
 
 **A checklist for methods and results reporting for neuroimaging studies**
 
-You can try this app [HERE](https://ohbm.github.io/cobidas/#/).
+Try the app [HERE](https://ohbm.github.io/cobidas/#/)!
 
 This checklist is still work in progress. The current prototype has been built using the 88 metadata items list used by the [Neurovault website](https://neurovault.org/) when uploading your neuroimaging results.
 
