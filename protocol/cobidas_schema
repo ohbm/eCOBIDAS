@@ -10,7 +10,7 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "schema:image": "https://raw.githubusercontent.com/ohbm/cobidas/master/protocol/checklist.jpg",
-    "landingPage": "https://raw.githubusercontent.com/ohbm/cobidas/master/protocol/README-en.md",
+    "landingPage": "https://raw.githubusercontent.com/ohbm/cobidas/master/README.md",
     "ui": {
         "order": [
             "ExperimentalDesign",
