@@ -75,7 +75,7 @@ We have a [list](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/goals.md
 
 ## Contributors
 
-The list of the people involved in this project can be found [here](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/contributors.md#contributors).
+The list of the people involved in this project can be found [here](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/contributions.md#whos-who-on-the-cobidas-checklist-team).
 
 ## License
 
