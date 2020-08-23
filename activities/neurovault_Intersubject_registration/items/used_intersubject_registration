@@ -12,24 +12,5 @@
     "question": {
         "en": "Were subjects registered to a common stereotactic space?"
     },
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "value": 0,
-                "name": "No",
-                "@type": "option"
-            },
-            {
-                "value": 1,
-                "name": "Yes",
-                "@type": "option"
-            },
-            {
-                "value": 9,
-                "name": "Unknown",
-                "@type": "option"
-            }
-        ]
-    }
+    "responseOptions": "../../../response_options/booleanValueConstraints"
 }
