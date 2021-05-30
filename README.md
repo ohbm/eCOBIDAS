@@ -2,24 +2,27 @@
 
 **A checklist for methods and results reporting for neuroimaging studies**
 
-Try the app [HERE](https://ohbm.github.io/cobidas/#/)!
+Try the app for fMRI [HERE](https://ohbm.github.io/cobidas/#/)!
 
 This checklist is still work in progress. The current prototype has been built using the 88 metadata items list used by the [Neurovault website](https://neurovault.org/) when uploading your neuroimaging results.
 
 We are currently working to create a more complete checklist as described in the OHBM COBIDAS reports for MRI, fMRI, EEG and MEG (see [below](#Background) for more information).
 
+But there is already a prototype version for PET [there](https://remi-gau.github.io/cobidas-PET/#/)!
+
 ---
 
 <!-- TOC -->
 
--   [How to use it](#how-to-use-it)
--   [Have any questions? Something is missing? Let us know.](#have-any-questions-something-is-missing-let-us-know)
--   [Why this project?](#why-this-project)
--   [Background](#background)
--   [Want to help?](#want-to-help)
--   [Want to know more?](#want-to-know-more)
--   [Contributors](#contributors)
--   [License](#license)
+- [eCOBIDAS](#ecobidas)
+  - [How to use it](#how-to-use-it)
+  - [Have any questions? Something is missing? Let us know.](#have-any-questions-something-is-missing-let-us-know)
+  - [Why this project?](#why-this-project)
+  - [Background](#background)
+  - [Want to help?](#want-to-help)
+  - [Want to know more?](#want-to-know-more)
+  - [Contributors](#contributors)
+  - [License](#license)
 
 <!-- /TOC -->
 

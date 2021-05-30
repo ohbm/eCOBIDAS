@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "question": {
         "en": "Shape of smoothing filter"
@@ -21,11 +21,9 @@
             },
             {
                 "name": "Other",
-                "value": 1,
+                "value": 2,
                 "@type": "option"
             }
-        ],
-        "minValue": 0,
-        "maxValue": 1
+        ]
     }
 }

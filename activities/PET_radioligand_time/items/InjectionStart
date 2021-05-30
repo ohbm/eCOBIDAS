@@ -10,7 +10,7 @@
         "inputType": "timeRange"
     },
     "question": {
-        "en": "Time of start of injection wrt TimeZero"
+        "en": "Time of start of injection wrt TimeZero."
     },
     "responseOptions": {
         "valueType": "datetime"

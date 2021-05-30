@@ -31,11 +31,9 @@
             },
             {
                 "name": "Other",
-                "value": 3,
+                "value": 4,
                 "@type": "option"
             }
-        ],
-        "minValue": 0,
-        "maxValue": 3
+        ]
     }
 }

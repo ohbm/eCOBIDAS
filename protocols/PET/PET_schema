@@ -7,8 +7,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "landingPage": {
-        "@id": "../README-en.md",
-        "@language": "en"
+        "@id": "../../landing_pages/README_PET-en.md",
+        "inLanguage": "en"
     },
     "ui": {
         "allow": [
