@@ -1,4 +1,4 @@
-name: Validate jsonld
+name: validate jsonld
 
 on:
   push:
