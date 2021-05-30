@@ -7,10 +7,12 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
-        "inputType": "radio"
+        "inputType": "float"
     },
     "question": {
         "en": "Registration cost function"
     },
-    "responseOptions": "../../../response_options/costFunctionValueConstraints"
+    "responseOptions": {
+        "valueType": "xsd:float"
+    }
 }

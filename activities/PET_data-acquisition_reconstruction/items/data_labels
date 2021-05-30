@@ -1,16 +1,16 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "metabolite-data-labels",
-    "prefLabel": "metabolite-data-labels",
-    "description": "metabolite-data-labels",
+    "@id": "data_labels",
+    "prefLabel": "data_labels",
+    "description": "data_labels",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
-        "inputType": "radio"
+        "inputType": "select"
     },
     "question": {
-        "en": "Metabolite data labels"
+        "en": "Data: labels"
     },
     "responseOptions": {
         "choices": [
@@ -25,22 +25,20 @@
                 "@type": "option"
             },
             {
-                "name": "parentFraction",
+                "name": "activity",
                 "value": 2,
                 "@type": "option"
             },
             {
-                "name": "parentFraction SD",
+                "name": "activitySD",
                 "value": 3,
                 "@type": "option"
             },
             {
                 "name": "Other",
-                "value": 4,
+                "value": 5,
                 "@type": "option"
             }
-        ],
-        "minValue": 0,
-        "maxValue": 4
+        ]
     }
 }

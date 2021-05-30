@@ -10,7 +10,7 @@
         "inputType": "timeRange"
     },
     "question": {
-        "en": "Time of start of scan wrt TimeZero"
+        "en": "Time of start of scan wrt TimeZero."
     },
     "responseOptions": {
         "valueType": "datetime"

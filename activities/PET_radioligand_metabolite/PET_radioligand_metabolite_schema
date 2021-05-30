@@ -12,7 +12,7 @@
             "items/MetaboliteAvail",
             "items/MetaboliteMethod",
             "items/radiolabeled-parent-compound-fraction",
-            "items/metabolite-data-labels",
+            "items/dataLabels",
             "items/parent-fraction-units",
             "items/parent-fraction-measurement-error",
             "items/metabolite-analysis-timepoints",
@@ -39,8 +39,8 @@
                 "isVis": true
             },
             {
-                "variableName": "metabolite-data-labels",
-                "isAbout": "items/metabolite-data-labels",
+                "variableName": "dataLabels",
+                "isAbout": "items/dataLabels",
                 "isVis": true
             },
             {
