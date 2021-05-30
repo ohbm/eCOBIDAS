@@ -1,4 +1,4 @@
-name: Test cobidas protocols and activities
+name: Validate jsonld
 
 on:
   push:
