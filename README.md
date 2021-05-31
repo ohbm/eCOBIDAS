@@ -126,7 +126,7 @@ super organized) :wink:.
 ## Contributors
 
 The list of the people involved in this project can be found
-[here](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/contributions.md#whos-who-on-the-cobidas-checklist-team).
+[here](https://github.com/Remi-Gau/eCobidas#contributors-).
 
 ## License
 
