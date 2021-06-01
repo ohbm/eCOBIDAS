@@ -13,8 +13,10 @@ We are currently working to create a more complete checklist as described in the
 OHBM COBIDAS reports for MRI, fMRI, EEG and MEG (see [below](#Background) for
 more information).
 
-But there is already a prototype version for PET
-[there](https://remi-gau.github.io/cobidas-PET/#/)!
+But there is already a prototype version:
+
+- for PET [there](https://remi-gau.github.io/cobidas-PET/#/)!
+- for eye-tracking [here](https://remi-gau.github.io/cobidas-eyetracker/#/).
 
 ---
 
@@ -67,7 +69,7 @@ built on the hope that improving methods and results reporting could improve our
 research.
 
 Follow the link if you want to know more about the
-[motivations behind this project](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/why_this_project.md).
+[motivations behind this project](https://remi-gau.github.io/eCobidas/#motivations).
 
 ## Background
 
@@ -90,15 +92,8 @@ to cover all the items of the COBIDAS report for fMRI as well as for the recent
 We are currently working on trying to expand the number of items used in the
 checklist. All of this work is done in google spreadsheets.
 
-The MRI spreadsheet is accessible
-[here](https://docs.google.com/spreadsheets/d/1dCXP0MTK3DjY09ZFd7FXgv0Ngx16_YJwVBiXOeQbTho/edit?usp=sharing)
-
-The M/EEG spreadsheet is accessible
-[here](https://docs.google.com/spreadsheets/d/1OhkmbtgIWdFxSVjpu6A8PWoAuqev0jY-98GFQlwBCy0/edit?usp=sharing)
-
-For more information on the content and organization of these spreadsheets, see
-the dedicated
-[document](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/spreadsheet_content.md)
+For more information on the content and organization of these spreadsheets see
+[HERE](https://remi-gau.github.io/eCobidas/40-spreadsheets/).
 
 ## Want to know more?
 
@@ -116,12 +111,11 @@ Join our channel </a>
 There is also an [OSF project](https://osf.io/anvqy/) to centralize all the
 information and repos.
 
-We have a
-[list](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/goals.md) of
-short, middle, long term goals: if you are interested by any of those get in
-touch. Many of them do not necessarily require super-advanced technical skills
-(except maybe a certain love for working with spreadsheet and wanting them to be
-super organized) :wink:.
+We have a [list](https://remi-gau.github.io/eCobidas/#goals) of short, middle,
+long term goals: if you are interested by any of those get in touch. Many of
+them do not necessarily require super-advanced technical skills (except maybe a
+certain love for working with spreadsheet and wanting them to be super
+organized) :wink:.
 
 ## Contributors
 
