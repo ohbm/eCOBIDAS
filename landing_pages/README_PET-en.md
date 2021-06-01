@@ -2,14 +2,12 @@
 
 **A checklist for methods and results reporting for PET studies**
 
-<!-- We are currently working to create a more complete checklist as described in the OHBM COBIDAS reports for MRI, fMRI, EEG and MEG (see [below](#Background) for more information).  -->
-
 ## How to use it
 
 You can navigate each section on the left and then answer the questions
-corresponding to your PET analysis. This is meant to make sure that you have
-not forgotten any of the essential information during data collection or later
-in the methods and results parts of your article.
+corresponding to your PET analysis. This is meant to make sure that you have not
+forgotten any of the essential information during data collection or later in
+the methods and results parts of your article.
 
 At the end, you can click on `Export` (bottom left) to get a zip file containing
 machine readable json files that captures information about your method/results
@@ -59,7 +57,7 @@ For more information on the content and organization of these spreadsheets see
 ## Contributors
 
 The list of the people involved in this project can be found
-[here](https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/contributions.md#whos-who-on-the-cobidas-checklist-team).
+[here](https://github.com/Remi-Gau/eCobidas#contributors-).
 
 ## License
 
