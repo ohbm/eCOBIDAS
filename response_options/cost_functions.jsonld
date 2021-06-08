@@ -1,7 +1,7 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
-    "@id": "cost_function.jsonld",
+    "@id": "cost_functions.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
     "maxValue": 5,

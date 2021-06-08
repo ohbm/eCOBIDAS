@@ -1,94 +1,82 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
-    "@id": "meeg_acquisition_softwares.jsonld",
+    "@id": "meeg_reference_electrodes.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 13,
+    "maxValue": 11,
     "choices": [
         {
             "name": {
-                "en": "Eemagine"
+                "en": "left mastoid"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "Neuroscan"
+                "en": "right mastoid"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "InsEP"
+                "en": "left earlobe"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "Biosemi"
+                "en": "right earlobe"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "NetStation"
+                "en": "physically linked"
             },
             "value": 4
         },
         {
             "name": {
-                "en": "Brain Vision Recorder"
+                "en": "Grass"
             },
             "value": 5
         },
         {
             "name": {
-                "en": "Emotiv"
+                "en": "mastoids"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "Brain Products"
+                "en": "physically linked earlobes"
             },
             "value": 7
         },
         {
             "name": {
-                "en": "ActiView605-Lores"
+                "en": "Cz"
             },
             "value": 8
         },
         {
             "name": {
-                "en": "EEProbe"
+                "en": "tip of the nose"
             },
             "value": 9
         },
         {
             "name": {
-                "en": "TMSi"
+                "en": "balanced non-cephalic reference"
             },
             "value": 10
         },
         {
             "name": {
-                "en": "BIOPAC"
+                "en": "average"
             },
             "value": 11
-        },
-        {
-            "name": {
-                "en": "ANT-Neuro"
-            },
-            "value": 12
-        },
-        {
-            "name": {
-                "en": "other"
-            },
-            "value": 13
         }
     ]
 }

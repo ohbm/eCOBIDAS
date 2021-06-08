@@ -1,40 +1,52 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
-    "@id": "mri_softwares.jsonld",
+    "@id": "interpolations.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 4,
+    "maxValue": 6,
     "choices": [
         {
             "name": {
-                "en": "SPM"
+                "en": "Nearest neighbour"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "FSL"
+                "en": "Trilinear"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "AFNI"
+                "en": "2nd degree spline"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "Freesurfer"
+                "en": "3rd degree spline"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "Brain voyager"
+                "en": "4th degree spline"
             },
             "value": 4
+        },
+        {
+            "name": {
+                "en": "Fourrier interpolation"
+            },
+            "value": 5
+        },
+        {
+            "name": {
+                "en": "sinc interpolation"
+            },
+            "value": 6
         }
     ]
 }
