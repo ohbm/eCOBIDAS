@@ -4,7 +4,7 @@ name: deploy
 
 env:
   # commit shasum for the reproschema we want to get
-  CHECKSUM: ba33641be4a3e37af19cc88f00e95e35663afb3f
+  CHECKSUM: 8c5ca141a109ed3075b65c1da2691648e7fc8b16
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -35,8 +35,8 @@ jobs:
     - name: Check for syntax errors
       run: |
         npm install -g jsonlint
-        grep -r  "@context" activities | cut -d: -f1 | xargs -I fname jsonlint -q fname
-        grep -r  "@context" protocols | cut -d: -f1 | xargs -I fname jsonlint -q fname
+        grep -r  "@context" response_options | cut -d: -f1 | xargs -I fname jsonlint -q fname
+        grep -r  "@context" schemas/neurovault | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
     # Checks that the schemas are valid
     - name: Set up Python 3.8
@@ -51,8 +51,8 @@ jobs:
         
     - name: Test with pyshacl
       run: |
-        reproschema -l DEBUG validate activities
-        reproschema -l DEBUG validate protocols/neurovault/neurovault_schema
+        reproschema -l DEBUG validate response_options
+        reproschema -l DEBUG validate schemas/neurovault
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
