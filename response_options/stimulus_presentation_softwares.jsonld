@@ -1,89 +1,94 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "artemisAcquisitionSoftware",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "stimulus_presentation_softwares.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 12,
-    "multipleChoice": false,
+    "maxValue": 13,
     "choices": [
         {
             "name": {
-                "en": "Eemagine"
+                "en": "Psycthoolbox"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "Neuroscan"
+                "en": "PsychoPy"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "InsEP"
+                "en": "Eprime"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "Biosemi"
+                "en": "expyriment"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "NetStation"
+                "en": "Presentation"
             },
             "value": 4
         },
         {
             "name": {
-                "en": "Brain Vision Recorder"
+                "en": "Cogent"
             },
             "value": 5
         },
         {
             "name": {
-                "en": "Emotiv"
+                "en": "ERTS"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "Brain Products"
+                "en": "STIM"
             },
             "value": 7
         },
         {
             "name": {
-                "en": "ActiView605-Lores"
+                "en": "EEVoke"
             },
             "value": 8
         },
         {
             "name": {
-                "en": "EEProbe"
+                "en": "Neurolab"
             },
             "value": 9
         },
         {
             "name": {
-                "en": "TMSi"
+                "en": "SuperLab"
             },
             "value": 10
         },
         {
             "name": {
-                "en": "BIOPAC"
+                "en": "ERP system"
             },
             "value": 11
         },
         {
             "name": {
-                "en": "ANT-Neuro"
+                "en": "StimPres"
             },
             "value": 12
+        },
+        {
+            "name": {
+                "en": "InsEP"
+            },
+            "value": 13
         }
     ]
 }

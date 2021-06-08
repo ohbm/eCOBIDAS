@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "mriSoftwareValueConstraints",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "mri_softwares.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 6,
-    "multipleChoice": false,
+    "maxValue": 4,
     "choices": [
         {
             "name": {
@@ -36,18 +35,6 @@
                 "en": "Brain voyager"
             },
             "value": 4
-        },
-        {
-            "name": {
-                "en": "ANTS"
-            },
-            "value": 5
-        },
-        {
-            "name": {
-                "en": "Other"
-            },
-            "value": 6
         }
     ]
 }

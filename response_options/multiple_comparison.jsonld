@@ -1,59 +1,64 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "interpolationValueConstraints",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "multiple_comparison.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 7,
-    "multipleChoice": false,
+    "maxValue": 8,
     "choices": [
         {
             "name": {
-                "en": "Nearest neighbour"
+                "en": "None"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "Trilinear"
+                "en": "Family-wise Error: Random field theory"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "2nd degree spline"
+                "en": "Family-wise Error: Permutation"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "3rd degree spline"
+                "en": "Family-wise Error: Monte Carlo"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "4th degree spline"
+                "en": "Family-wise Error: Bonferroni"
             },
             "value": 4
         },
         {
             "name": {
-                "en": "Fourrier interpolation"
+                "en": "False discovery rate: Benjamini & Hochberg"
             },
             "value": 5
         },
         {
             "name": {
-                "en": "sinc interpolation"
+                "en": "False discovery rate: Positive FDR"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "Other"
+                "en": "False discovery rate: Local FDR"
             },
             "value": 7
+        },
+        {
+            "name": {
+                "en": "False discovery rate: Cluster-level FDR"
+            },
+            "value": 8
         }
     ]
 }

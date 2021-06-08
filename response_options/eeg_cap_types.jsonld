@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "artemisTypeCap",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "eeg_cap_types.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
     "maxValue": 8,
-    "multipleChoice": false,
     "choices": [
         {
             "name": {

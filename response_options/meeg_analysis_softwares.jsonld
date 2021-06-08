@@ -1,101 +1,94 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "stimulusPresentationSoftwareValueConstraints",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "meeg_analysis_softwares.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 6,
-    "multipleChoice": false,
+    "maxValue": 13,
     "choices": [
         {
             "name": {
-                "en": "Psycthoolbox"
+                "en": "EEGlab (+ ERPLab)"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "PsychoPy"
+                "en": "InstEP"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "Eprime"
+                "en": "FieldTrip"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "expyriment"
+                "en": "BESA Research"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "Presentation"
+                "en": "Scan"
             },
             "value": 4
         },
         {
             "name": {
-                "en": "Cogent"
+                "en": "Brain Vision Analyzer"
             },
             "value": 5
         },
         {
             "name": {
-                "en": "ERTS"
+                "en": "NetStation"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "STIM"
+                "en": "Cartool"
             },
-            "value": 11
+            "value": 7
         },
         {
             "name": {
-                "en": "EEVoke"
+                "en": "MatLab custom script"
             },
-            "value": 12
+            "value": 8
         },
         {
             "name": {
-                "en": "Neurolab"
+                "en": "Curry"
             },
-            "value": 13
+            "value": 9
         },
         {
             "name": {
-                "en": "SuperLab"
+                "en": "TrackWalker"
             },
-            "value": 14
+            "value": 10
         },
         {
             "name": {
                 "en": "ERP system"
             },
-            "value": 15
+            "value": 11
         },
         {
             "name": {
-                "en": "StimPres"
+                "en": "EEProbe"
             },
-            "value": 16
+            "value": 12
         },
         {
             "name": {
-                "en": "InsEP"
+                "en": "other"
             },
-            "value": 17
-        },
-        {
-            "name": {
-                "en": "Other"
-            },
-            "value": 18
+            "value": 13
         }
     ]
 }

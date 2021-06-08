@@ -1,39 +1,38 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "artemisReferenceElectrode",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "meeg_amplifier_brands.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 12,
-    "multipleChoice": false,
+    "maxValue": 16,
     "choices": [
         {
             "name": {
-                "en": "left mastoid"
+                "en": "Cognitrace"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "right mastoid"
+                "en": "Neuroscan"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "left earlobe"
+                "en": "Digitimer"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "right earlobe"
+                "en": "SA Instrumentation"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "physically linked"
+                "en": "Biosemi"
             },
             "value": 4
         },
@@ -45,45 +44,69 @@
         },
         {
             "name": {
-                "en": "mastoids"
+                "en": "NeuroScience"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "physically linked earlobes"
+                "en": "Brain Products"
             },
             "value": 7
         },
         {
             "name": {
-                "en": "Cz"
+                "en": "Electrical Geodesics"
             },
             "value": 8
         },
         {
             "name": {
-                "en": "tip of the nose"
+                "en": "ANT"
             },
             "value": 9
         },
         {
             "name": {
-                "en": "balanced non-cephalic reference"
+                "en": "TMSi"
             },
             "value": 10
         },
         {
             "name": {
-                "en": "average"
+                "en": "M&I"
             },
             "value": 11
         },
         {
             "name": {
-                "en": "other"
+                "en": "Emotiv"
             },
             "value": 12
+        },
+        {
+            "name": {
+                "en": "Coulbourn"
+            },
+            "value": 13
+        },
+        {
+            "name": {
+                "en": "Neuronic"
+            },
+            "value": 14
+        },
+        {
+            "name": {
+                "en": "Nihon Kohden"
+            },
+            "value": 15
+        },
+        {
+            "name": {
+                "en": "Psylab"
+            },
+            "value": 16
         }
     ]
 }

@@ -1,71 +1,82 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "multipleComparisonValueConstraints",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "meeg_reference_electrode.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 9,
-    "multipleChoice": false,
+    "maxValue": 11,
     "choices": [
         {
             "name": {
-                "en": "None"
+                "en": "left mastoid"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "Family-wise Error: Random field theory"
+                "en": "right mastoid"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "Family-wise Error: Permutation"
+                "en": "left earlobe"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "Family-wise Error: Monte Carlo"
+                "en": "right earlobe"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "Family-wise Error: Bonferroni"
+                "en": "physically linked"
             },
             "value": 4
         },
         {
             "name": {
-                "en": "False discovery rate: Benjamini & Hochberg"
+                "en": "Grass"
             },
             "value": 5
         },
         {
             "name": {
-                "en": "False discovery rate: Positive FDR"
+                "en": "mastoids"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "False discovery rate: Local FDR"
+                "en": "physically linked earlobes"
             },
             "value": 7
         },
         {
             "name": {
-                "en": "False discovery rate: Cluster-level FDR"
+                "en": "Cz"
             },
             "value": 8
         },
         {
             "name": {
-                "en": "Other"
+                "en": "tip of the nose"
             },
             "value": 9
+        },
+        {
+            "name": {
+                "en": "balanced non-cephalic reference"
+            },
+            "value": 10
+        },
+        {
+            "name": {
+                "en": "average"
+            },
+            "value": 11
         }
     ]
 }

@@ -1,11 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "costFunctionValueConstraints",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "cost_function.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 6,
-    "multipleChoice": false,
+    "maxValue": 5,
     "choices": [
         {
             "name": {
@@ -42,12 +41,6 @@
                 "en": "Boundary-based registration"
             },
             "value": 5
-        },
-        {
-            "name": {
-                "en": "Other"
-            },
-            "value": 6
         }
     ]
 }

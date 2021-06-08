@@ -1,27 +1,26 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "booleanValueConstraints",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "boolean.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
     "maxValue": 2,
-    "multipleChoice": false,
     "choices": [
         {
             "name": {
                 "en": "Yes"
             },
-            "value": 1
+            "value": 0
         },
         {
             "name": {
                 "en": "No"
             },
-            "value": 0
+            "value": 1
         },
         {
             "name": {
-                "en": "Don't know"
+                "en": "Do not Know"
             },
             "value": 2
         }

@@ -1,93 +1,92 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-    "@id": "artemisAnalysisSoftware",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
+    "@id": "meeg_acquisition_softwares.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
     "maxValue": 13,
-    "multipleChoice": false,
     "choices": [
         {
             "name": {
-                "en": "EEGlab (+ ERPLab)"
+                "en": "Eemagine"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "InstEP"
+                "en": "Neuroscan"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "FieldTrip"
+                "en": "InsEP"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "BESA Research"
+                "en": "Biosemi"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "Scan"
+                "en": "NetStation"
             },
             "value": 4
         },
         {
             "name": {
-                "en": "Brain Vision Analyzer"
+                "en": "Brain Vision Recorder"
             },
             "value": 5
         },
         {
             "name": {
-                "en": "NetStation"
+                "en": "Emotiv"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "Cartool"
+                "en": "Brain Products"
             },
             "value": 7
         },
         {
             "name": {
-                "en": "MatLab custom script"
+                "en": "ActiView605-Lores"
             },
             "value": 8
         },
         {
             "name": {
-                "en": "Curry"
+                "en": "EEProbe"
             },
             "value": 9
         },
         {
             "name": {
-                "en": "TrackWalker"
+                "en": "TMSi"
             },
             "value": 10
         },
         {
             "name": {
-                "en": "ERP system"
+                "en": "BIOPAC"
             },
             "value": 11
         },
         {
             "name": {
-                "en": "EEProbe"
+                "en": "ANT-Neuro"
             },
             "value": 12
         },
         {
             "name": {
-                "en": "custom and others"
+                "en": "other"
             },
             "value": 13
         }
