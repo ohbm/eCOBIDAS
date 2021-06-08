@@ -1,82 +1,64 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:ResponseOption",
-    "@id": "meeg_reference_electrode.jsonld",
+    "@id": "multiple_comparisons.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 11,
+    "maxValue": 8,
     "choices": [
         {
             "name": {
-                "en": "left mastoid"
+                "en": "None"
             },
             "value": 0
         },
         {
             "name": {
-                "en": "right mastoid"
+                "en": "Family-wise Error: Random field theory"
             },
             "value": 1
         },
         {
             "name": {
-                "en": "left earlobe"
+                "en": "Family-wise Error: Permutation"
             },
             "value": 2
         },
         {
             "name": {
-                "en": "right earlobe"
+                "en": "Family-wise Error: Monte Carlo"
             },
             "value": 3
         },
         {
             "name": {
-                "en": "physically linked"
+                "en": "Family-wise Error: Bonferroni"
             },
             "value": 4
         },
         {
             "name": {
-                "en": "Grass"
+                "en": "False discovery rate: Benjamini & Hochberg"
             },
             "value": 5
         },
         {
             "name": {
-                "en": "mastoids"
+                "en": "False discovery rate: Positive FDR"
             },
             "value": 6
         },
         {
             "name": {
-                "en": "physically linked earlobes"
+                "en": "False discovery rate: Local FDR"
             },
             "value": 7
         },
         {
             "name": {
-                "en": "Cz"
+                "en": "False discovery rate: Cluster-level FDR"
             },
             "value": 8
-        },
-        {
-            "name": {
-                "en": "tip of the nose"
-            },
-            "value": 9
-        },
-        {
-            "name": {
-                "en": "balanced non-cephalic reference"
-            },
-            "value": 10
-        },
-        {
-            "name": {
-                "en": "average"
-            },
-            "value": 11
         }
     ]
 }
