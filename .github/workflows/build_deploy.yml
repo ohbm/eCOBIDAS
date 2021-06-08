@@ -4,7 +4,7 @@ name: deploy
 
 env:
   # commit shasum for the reproschema we want to get
-  CHECKSUM: ba33641be4a3e37af19cc88f00e95e35663afb3f
+  CHECKSUM: 8c5ca141a109ed3075b65c1da2691648e7fc8b16
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
