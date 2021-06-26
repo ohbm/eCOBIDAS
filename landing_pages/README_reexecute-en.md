@@ -1,1 +1,0 @@
-# Neuroimaging reexcutability checklist
